@@ -89,6 +89,12 @@
     margin-top: 20px;
 }
 
+.container .profile-box .auto{
+    color: rgb(2, 117, 2);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 .social-media{
     display: flex;
     justify-content: center;
