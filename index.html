@@ -16,7 +16,7 @@
             <img src="images/setting2.png" class="setting-icon">
             <img src="images/profile.jpeg" class="profile-pic">
             <h3>Sourav Chowdhury</h3>
-            <p>Front-End web developer, ML Enthuasist</p>
+            <p  class="auto"><span class="auto-input"></span>></p>
             <div class="social-media">
                 <a href="https://www.linkedin.com/in/sourav-chowdhury-4527b8227/" target = "_blank">
                     <li class = "fab fa-linkedin"></li>
@@ -39,6 +39,14 @@
             </div>
           </div>
     </div>
-
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["web-developer", "application-developer", "UI designer", "Data-Scientist", "System-Engineer"],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true
+        })
+    </script>
 </body>
 </html>
